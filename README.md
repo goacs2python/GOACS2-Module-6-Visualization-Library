@@ -1,4 +1,4 @@
-# GOACS2 Module 5 - Classes Practice
+# GOACS2 Module 6 - Visualization Library
 
 Please complete the program as described on the assignment page.
 
