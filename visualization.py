@@ -11,7 +11,7 @@ def boxplot(data,x,color,figure):
     pass
 
 # HISTOGRAM - creates a histogram from the given data
-def histogram(data,numBins,graphrange,color,figure):
+def histogram(data,numBins,graphRange,color,figure):
     pass
 
 # PIECHART - creates a pie chart from the given data
