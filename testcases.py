@@ -27,8 +27,9 @@ for i in range(500):
 poissonlow = min(poissondistdata)
 poissonhigh = max(poissondistdata)
 
-
+#############################
 # Box and Whisker Plot Tests
+#############################
 boxplotsfig = figure(title="Boxplots graph")
 
 boxplotdata1 = [1,2,3,4,5,6]
@@ -42,6 +43,9 @@ boxplot(randomdata,5,(17,168,103),boxplotsfig)
 boxplot(normaldistdata,7,(255,51,221),boxplotsfig)
 boxplot(poissondistdata,9,'#084594',boxplotsfig)
 
+#############################
+# Histogram plot tests
+#############################
 histfig1 = figure(title="Random Histogram")
 histfig2 = figure(title="Normal Histogram")
 histfig3 = figure(title="Poisson Histogram")
@@ -50,8 +54,9 @@ histogram(randomdata,10,(-10,10),"yellow",histfig1)
 histogram(normaldistdata,10,(normallow,normalhigh),'#4f0e37',histfig2)
 histogram(poissondistdata,8,(poissonlow,poissonhigh),randomcolor(),histfig3)
 
-
+#############################
 # Pie Chart Tests
+#############################
 piechartf1 = figure(title="Pie Chart 1")
 
 piechartdata1 = [5,8,6,2]
@@ -68,8 +73,9 @@ piechartcolors2 = ["blue","grey","red","yellow","purple"]
 
 piechart(piechartdata2,piechartnames2,piechartcolors2,25,3,piechartf2)
 
-
+#############################
 # Scatter Plot Tests
+#############################
 scatterplotf = figure(title="Scatterplot")
 
 scatterplotx = [14.2, 16.4, 11.9, 15.2, 18.5, 22.1, 19.4, 25.1, 23.4, 18.1, 22.6, 17.2]
@@ -92,8 +98,9 @@ for point in poissondistdata:
 
 scatterplot(scatterplotx2,scatterploty2,scatterplotsizes2,scatterplotcolors2,scatterplotf2)
 
-
+#############################
 # Showing all of the plots
+#############################
 grid = gridplot([[boxplotsfig, histfig1],[histfig2,histfig3],[piechartf1,piechartf2],[scatterplotf,scatterplotf2]])
 
 show(grid)

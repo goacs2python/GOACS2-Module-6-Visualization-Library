@@ -1,9 +1,11 @@
-# CREATE THE FOLLOWING FUNCTIONS FOR YOUR VISUALIZATION LIBRARY
-
 from bokeh.plotting import figure
 import numpy as np
 import math
 # feel free to add additional imports if you would like
+
+#############################
+# CREATE THE FOLLOWING FUNCTIONS FOR YOUR VISUALIZATION LIBRARY
+#############################
 
 # BOXPLOT - creates a box and whisker plot
 # If you want to make a horizontal boxplot, change the x argument to y.
