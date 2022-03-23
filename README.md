@@ -1,6 +1,10 @@
 # GOACS2 Module 6 - Visualization Library
 
-Please complete the program as described on the assignment page.
+Please complete the visualization library as described on the assignment page.
+
+The functions and arguments are set up for you in `visualization.py`. When you start work on a new function, remove the `pass` keyword and put your code inside each function definition.
+
+You can test your visualizations by running the program `testcases.py`.
 
 ---
 
